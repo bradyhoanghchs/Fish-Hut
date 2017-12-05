@@ -1,0 +1,340 @@
+/* ----- Header ----- */
+
+li{
+  margin-top: 5px;
+}
+
+header {
+  background-color: #5b0000;
+  border-style: groove;
+  border: solid;
+  border-color: #444;
+  border-width: 5px;
+  
+}
+
+header img {
+  margin-top: 5px;
+  margin-left: 5px;
+  border: solid;
+  border-color: #444;
+  
+}
+
+/* ----- Header ----- */
+
+
+
+/* ----- Navigation Bar ----- */
+nav {
+  float: right;
+  overflow: hidden;
+  
+}
+
+nav ul {
+  margin-right: 300px;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 30px 10px;
+  margin-top: 30px;
+  list-style: none;
+  color: white;
+}
+
+nav ul li a {
+  font-family: "Lobster", cursive;
+  color: white;
+  
+}
+
+/* ----- Navigation Bar ----- */
+
+
+
+/* ----- Information ----- */
+
+#Information {
+ color: #444;
+ font-family: 'Lobster', cursive;
+  color: white;
+  margin-top: 125px;
+  
+  
+}
+
+#informationparagraph {
+  background-color: #444;
+  color: white;
+  font-family: 'Oswald', cursive;
+  border-style: solid;
+  
+}
+
+/* ----- Information ----- */
+
+
+
+/* ----- More Nav Bar Stuff ----- */
+ .active {
+  background-color: #444;
+  border: solid;
+  border-color: #444;
+  
+
+}
+li a:hover {
+  background-color: #222;
+  padding-top: 60px;
+  padding-bottom: 38px;
+  
+}
+/* ----- More Nav Bar Stuff ----- */
+
+
+
+/* ----- FishHut Nav Bar ----- */
+
+.fishhut {
+    position: relative;
+    bottom: 15px;
+    font-family: 'Lobster', cursive;
+    Color: white;
+}
+
+/* ----- FishHut Nav Bar ----- */
+
+/* ----- Google Maps Home Page ----- */
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+/* ----- Google Maps Home Page ----- */
+
+
+
+/* ----- Footer ----- */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* Colors */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+}
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.3em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+footer .social {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 600px) {
+  footer .social {
+    width: 100%;
+  }
+}
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.face {
+  background-color: #3D5B94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.support {
+  background-color: #404040;
+  font-size: 0.8em;
+  width: 40%;
+}
+
+/* ----- Footer ----- */
+
+
+
+/* ----- Text ----- */
+h2 {
+  text-align:Center;  
+  font-family: "Lobster", cursive;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ----- Text ----- */
+
+/* ----- Pictures ----- */
+
+.pictures {
+  text-align:Center;
+  position: relative;
+  font-family: "Lobster", cursive;
+  color: white;
+}
+
+/* ----- Pictures ----- */
+
+#picture {
+  overflow: hidden;   /*encloses floats in case float images are
+                        taller than the middle, in-the-flow image*/
+  text-align: center;
+  }
+ 
+/* ----- Pictures ----- */
+
+
+
+/* ----- Misc ----- */
+#n1 {
+  float: left;
+  position: relative;
+  left:px;
+  top: px;
+  width:600px;
+  height: 400px;
+  }
+ 
+#n2 {
+  float: right;
+  height: 400px;
+  width:600px;
+    margin-right: 4px;
+  }
+ 
+#n3 {height:400px;
+  width:600px;
+}
+/* ----- Misc ----- */
+
+
+
+/* ----- Text Bottom ----- */
+
+h3 {Color: white;
+  font-family: "Lobster", cursive;
+  text-align: Center;
+  margin-top: 1px;
+  margin-bottom: 20px;
+}
+
+div#my-menus {background:#000; 
+  height:75px;
+  position:fixed;
+  width: 1900px;
+  z-index: 2;
+}
+.button {
+ position:relative;
+  top: 25px;
+   border: 5px solid #444444;
+   background: #5b0000;
+   background: -webkit-gradient(linear, left top, left bottom, from(#5b0000), to(#5b0000));
+   background: -webkit-linear-gradient(top, #5b0000, #5b0000);
+   background: -moz-linear-gradient(top, #5b0000, #5b0000);
+   background: -ms-linear-gradient(top, #5b0000, #5b0000);
+   background: -o-linear-gradient(top, #5b0000, #5b0000);
+   background-image: -ms-linear-gradient(top, #5b0000 0%, #5b0000 100%);
+   padding: 20px 40px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #444444 0 1px 0;
+   color: #ffffff;
+   font-size: 24px;
+   font-family: "Lobster", cursive;
+   text-decoration: none;
+   vertical-align: middle;
+  margin-top: 100px;
+   }
+.button:hover {
+   border: 5px solid #444444;
+   text-shadow: #444444 0 1px 0;
+   background: #222222;
+   background: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#222222));
+   background: -webkit-linear-gradient(top, #222222, #222222);
+   background: -moz-linear-gradient(top, #222222, #222222);
+   background: -ms-linear-gradient(top, #222222, #222222);
+   background: -o-linear-gradient(top, #222222, #222222);
+   background-image: -ms-linear-gradient(top, #222222 0%, #222222 100%);
+   color: #ffffff;
+   }
+.button:active {
+   text-shadow: #999999 0 1px 0;
+   border: 5px solid #444444;
+   background: #222222;
+   background: -webkit-gradient(linear, left top, left bottom, from(#222222), to(#222222));
+   background: -webkit-linear-gradient(top, #222222, #222222);
+   background: -moz-linear-gradient(top, #222222, #222222);
+   background: -ms-linear-gradient(top, #222222, #222222);
+   background: -o-linear-gradient(top, #222222, #222222);
+   background-image: -ms-linear-gradient(top, #222222 0%, #222222 100%);
+   color: #fff;
+   }
+/* ----- Text Bottom ----- */
+.location {margin-top:40px}
+
+
+
+
+
+

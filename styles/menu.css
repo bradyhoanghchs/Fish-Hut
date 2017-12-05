@@ -1,0 +1,379 @@
+/* ----- Header ----- */
+header {
+  background-color: #5b0000;
+  border-style: groove;
+  border: solid;
+  border-color: #444;
+  border-width: 5px;
+}
+
+header img {
+  margin-top: 5px;
+  margin-left: 5px;
+  border: solid;
+  border-color: #444;
+}
+
+/* ----- Header ----- */
+
+/* ----- Navigation Bar ----- */
+nav {
+  float: right;
+  overflow: hidden;
+}
+
+nav ul {
+  margin-right: 300px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 30px 10px;
+  margin-top: 30px;
+  list-style: none;
+  color: white;
+}
+
+nav ul li a {
+  font-family: "Lobster", cursive;
+  color: white;
+}
+
+/* ----- Navigation Bar ----- */
+
+/* ----- More Nav Bar Stuff ----- */
+.active {
+  background-color: #444;
+  border: solid;
+  border-color: #444;
+}
+li a:hover {
+  background-color: #222;
+  padding-top: 60px;
+  padding-bottom: 38px;
+}
+/* ----- More Nav Bar Stuff ----- */
+
+/* ----- FishHut Nav Bar ----- */
+
+.fishhut {
+  position: relative;
+  bottom: 15px;
+  font-family: "Lobster", cursive;
+  color: white;
+}
+
+/* ----- FishHut Nav Bar ----- */
+
+/* ----- Footer ----- */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* Colors */
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Raleway, sans-serif;
+  background-color: #fff;
+}
+
+footer {
+  width: 100%;
+  display: inline-block;
+  margin: 2em 0;
+  height: 70px;
+  background-color: #999;
+}
+footer .copyright {
+  width: 50%;
+  float: left;
+}
+@media (max-width: 600px) {
+  footer .copyright {
+    width: 100%;
+  }
+}
+footer .copyright p {
+  padding-left: 10%;
+  color: white;
+  font-size: 0.7em;
+  line-height: 70px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+@media (max-width: 600px) {
+  footer .copyright p {
+    text-align: center;
+    padding: 0;
+  }
+}
+footer .social {
+  width: 50%;
+  float: right;
+}
+@media (max-width: 600px) {
+  footer .social {
+    width: 100%;
+  }
+}
+footer .social a {
+  float: left;
+  line-height: 70px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+footer .social a:hover {
+  background-color: #222;
+  -moz-transition: all, 0.3s;
+  -o-transition: all, 0.3s;
+  -webkit-transition: all, 0.3s;
+  transition: all, 0.3s;
+}
+
+.face {
+  background-color: #3d5b94;
+  font-size: 1.2em;
+  width: 20%;
+}
+
+.support {
+  background-color: #404040;
+  font-size: 0.8em;
+  width: 40%;
+}
+
+/* ----- Footer ----- */
+
+p {
+  white-space: nowrap;
+}
+.plates {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: ;
+  text-align: center;
+  color: white;
+  width: 1733px;
+  margin-left: 75px;
+  font-size: 200%;
+  border-width: 5px;
+  font-family: "Oswald", cursive;
+}
+.chickenplates {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  text-align: center;
+  color: white;
+  width: 1733px;
+  margin-left: 75px;
+  font-size: 200%;
+  border-width: 5px;
+  margin-top: 75px;
+  font-family: "Oswald", cursive;
+}
+.beefplates {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  text-align: center;
+  color: white;
+  width: 1733px;
+  margin-left: 75px;
+  border-width: 5px;
+  font-size: 200%;
+  margin-top: 75px;
+  font-family: "Oswald", cursive;
+}
+
+#fishshrimpleft {
+  font-size: 150%;
+}
+h1 {
+  font-family: "Lobster", cursive;
+}
+.sandwiches {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  text-align: center;
+  float: right;
+  color: white;
+  margin-right: 75px;
+  font-size: 235%;
+  border-width: 5px;
+  width: 825px;
+  font-family: "Oswald", cursive;
+  margin-top: 75px;
+}
+
+.sides {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  text-align: center;
+  margin-left: 75px;
+  font-size: 235%;
+  color: white;
+  border-width: 5px;
+  width: 825px;
+  font-family: "Oswald", cursive;
+  margin-top: 75px;
+}
+.salads {
+  border-style: solid;
+  border-color: white;
+  display: table;
+  background-color: #404040;
+  font-size: 235%;
+  margin-left: 75px;
+  color: white;
+  margin-top: 75px;
+  border-width: 5px;
+  width: 825px;
+  text-align: center;
+  font-family: "Oswald", cursive;
+}
+.drinks {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  margin-right: 75px;
+  color: white;
+  width: 825px;
+  border-width: 5px;
+  font-size: 235%;
+  margin-top: 10px;
+  float: right;
+  text-align: center;
+  font-family: "Oswald", cursive;
+}
+.hotdogs {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  margin-left: 75px;
+  color: white;
+  font-size: 235%;
+  border-width: 5px;
+  margin-top: 75px;
+  width: 825px;
+
+  text-align: center;
+  font-family: "Oswald", cursive;
+}
+.platters {
+  border-style: solid;
+  border-color: white;
+  display: table;
+  background-color: #404040;
+  margin-right: 75px;
+  margin-top: 5px;
+  color: white;
+  font-size: 235%;
+  border-width: 5px;
+  width: 825px;
+  float: right;
+  text-align: center;
+  font-family: "Oswald", cursive;
+}
+.lunchspecials {
+  border-style: solid;
+  border-color: white;
+  display: table;
+  background-color: #404040;
+  margin-left: 75px;
+  margin-top: 75px;
+  border-width: 5px;
+  color: white;
+  font-size: 125%;
+  width: 825px;
+  text-align: center;
+  font-family: "Oswald", cursive;
+}
+.childmenu {
+  border-style: solid;
+  border-color: white;
+  background-color: #404040;
+  display: table;
+  margin-top: 75px;
+  color: white;
+  margin-right: 75px;
+  border-width: 5px;
+  font-size: 235%;
+  float: right;
+  text-align: center;
+  font-family: "Oswald", cursive;
+  width: 825px;
+}
+.homemadedesserts {
+  border-style: solid;
+  border-color: white;
+  display: table;
+  margin-left: 75px;
+  margin-top: 75px;
+  background-color: #404040;
+  border-width: 5px;
+  font-size: 175%;
+  color: white;
+  text-align: center;
+  font-family: "Oswald", cursive;
+  width: 825px;
+}
+ul {
+  list-style-type: none;
+}
+
+#chickenplates {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+  font-size: 150%;
+}
+.grilled {
+  font-size: 80%;
+}
+.menu {
+  color: white;
+  text-align: center;
+  font-family: "Oswald", cursive;
+  font-size: 50px;
+}
+.catfish {
+  margin-left: 290px;
+  margin-top: 10px;
+}
+div#my-menus {background:#5b000; 
+  height:75px;
+  position:fixed;
+  width: 1900px;
+  z-index: 2;
+}
+#Information {
+ color: #444;
+ font-family: 'Lobster', cursive;
+  color: white;
+  margin-top: 125px;
+  
+  
+}
